@@ -1,0 +1,199 @@
+/*General */
+
+:root {
+    --font-family: Roboto, sans-serif;
+    --color: #434455;
+    --background-color: #FFFFFF;
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF  
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}  
+/*Header*/
+
+.navigation {
+    background-color: var(--primary-white-color, #FFFFFF);
+}
+
+.web-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio-logo {
+    color: var(--nav-log-foot-color, #2e2f42);
+}
+.link-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--nav-log-foot-color, #2e2f42);
+}
+.link-nav:hover,
+.link-nav:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+.address-link {
+    color: var(--adres-text-color, #434455);
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/*Service section*/
+
+.service {
+    background-color: #2e2f42;
+}
+.service-section {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.service-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+ 
+/* Advantages section*/
+
+.our-advantures {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.goals {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.service-button:hover,
+.service-button:focus  {
+    background-color: #404BBF;
+}
+/*Work section*/
+
+.work {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+
+/*Team section*/
+
+.team {
+    background-color: #F4F4FD
+}
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.list-images {
+    background-color: #FFFFFF;
+}
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.profesion {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*Footer*/
+.footer {
+background-color: var(--nav-log-foot-color, #2e2f42);
+}
+
+.footer-logo {
+    color: #f4f4fd;
+}
+
+.marketing {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
+
+/*Portfolio*/
+
+.button-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+ .button-item:hover,
+ .button-item:focus {
+    color:#FFFFFF;
+    background-color: #404BBF;
+ }
+
+/*Images list*/
+.image-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.image-action {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
