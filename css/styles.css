@@ -1,5 +1,9 @@
 /*General */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --font-family: Roboto, sans-serif;
     --color: #434455;
@@ -19,12 +23,17 @@ body {
 .link {
     text-decoration: none;
 }  
+
+img {
+    display: block;
+}
 /*Header*/
 
 .navigation {
     background-color: var(--primary-white-color, #FFFFFF);
     padding: 0 15px 0 15px;
     align-items: center;
+    display: flex;
 
 }
 
@@ -52,6 +61,7 @@ body {
     text-transform: uppercase;
     color: var(--nav-log-foot-color, #2e2f42);
     margin-right: 40px;
+    padding: 24px 0;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -77,6 +87,7 @@ body {
 
 .service {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .service-section {
     font-size: 56px;
@@ -94,8 +105,22 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: inline-flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 48px;
+    margin-right: 479px;
+    margin-left: 479px;
+    margin-bottom: 188px;
+    min-width: 169px;
 }
- 
+
 /* Advantages section*/
 
 .our-advantures {
@@ -206,20 +231,19 @@ background-color: var(--nav-log-foot-color, #2e2f42);
     color: #434455;
 }
 
-.header {
+.header-conteiner {
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
-.header-conteiner {
+.conteiner {
     display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
 }
 
-.list-container {
+.list-continer {
     display: flex;
     gap: 40px;
-
-
 }
