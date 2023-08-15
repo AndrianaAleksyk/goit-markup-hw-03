@@ -197,3 +197,20 @@ background-color: var(--nav-log-foot-color, #2e2f42);
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.body-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 40px;
+    flex-direction: row;
+    background: var(--white, #FFF);
+    text-align: center;
+}
