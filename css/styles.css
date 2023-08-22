@@ -125,23 +125,38 @@ img {
     color: #404bbf;
 }
 
-/*Service section*/
+/*Hero section*/
 
-.service {
-    background-color: #2e2f42;
-    padding: 188px 0;
+.hero {
+    padding-bottom: 80px;
 }
-.service-section {
+
+.hero-container {
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 330px;
+    background-color: rgba(46, 47, 66, 0.70);;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.hero-title {
     font-size: 56px;
-    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    line-height: 1.07;
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    font-family: Roboto;
 }
-.service-button {
+.hero-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -251,6 +266,7 @@ margin-bottom: 72px;
 .list-images {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-title {
     font-weight: 500;
@@ -346,6 +362,7 @@ padding: 100px 0;
     color:#FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
  }
 
  .offers-list {
@@ -358,7 +375,10 @@ padding: 100px 0;
  .offers-list-item {
      width: calc((100% - 48px) / 3);
  }
-
+.offers-list-item:hover,
+.offers-list-item:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 /*Images list*/
 .image-name {
     font-weight: 500;
