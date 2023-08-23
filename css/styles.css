@@ -102,9 +102,7 @@ img {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     font-style: normal;
-    text-transform: uppercase;
     color: var(--nav-log-foot-color, #2e2f42);
-    margin-right: 40px;
     padding: 24px 0;
 }
 
@@ -115,6 +113,7 @@ img {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-link {
@@ -145,6 +144,7 @@ img {
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .service-button {
@@ -394,5 +394,4 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
